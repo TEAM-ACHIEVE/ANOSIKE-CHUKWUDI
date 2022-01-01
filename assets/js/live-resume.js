@@ -58,3 +58,18 @@ $('.hover-box').hover(
 
     }
 );
+
+function copyinglink() {
+  /* Get the text field */
+  var copyText = "www.bit.ly/ANOSIKECHUKWUDICV";
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Alert the copied text */
+  alert("website link copied" + copyText.value);
+}

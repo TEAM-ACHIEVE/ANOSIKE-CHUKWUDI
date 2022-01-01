@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
-    <!-- Google Tag Manager -->
+     <!-- GLOBE SITE TAG(gtag.js)-GOOGLE analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-41G5S3N8BB"></script>
+    
     <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-        var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })
-        (window,document,'script','dataLayer','GTM-58BV9H5');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+
+      gtag("config", "G-41G5S3N8BB");
     </script>
+
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,12 +27,13 @@
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58BV9H5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58BV9H5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
     <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
-            SHARE</button>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img" onclick="copyinglink()">
+            SHARE
+        </button>
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="index.html" class="nav-link">HOME</a>
             <a href="resume.html" class="nav-link">RESUME</a>
@@ -48,13 +51,11 @@
             </div>
             <h1 class="profile-name">Anosike Chukwudi</h1>
             <div class="text-center">
-                <span class="badge badge-white badge-pill profile-designation">PRODUCT DEVELOPER</span>
-            </div>
+                <span class="badge badge-white badge-pill profile-designation">BUSINESS DEVELOPER</span>
+            </div> 
             <nav class="social-links">
-                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/tonichuks" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/chukwudi-anosike-17896a1a9" class="social-link"><i class="fab fa-linkedin"></i></a>
             </nav>
             <div class="widget">
                 <h5 class="widget-title">personal information</h5>
@@ -63,7 +64,7 @@
                     <p>WEBSITE : www.bit.ly/ANOSIKECHUKWUDICV</p>
                     <p>PHONE : +234 8131835791</p>
                     <p>MAIL : toniscrib19@yahoo.com</p>
-                    <p>Location : ENUGU STATE, NIGERIA</p>
+                    <p>Location : ENUGU / LAGOS STATE, NIGERIA</p>
                     <a type="button" class="btn btn-download-cv btn-primary rounded-pill" href="assets/cv/ANOSIKE CHUKWUDI RESUME.pdf"> 
                         <img src="assets/images/download.svg" alt="download" class="btn-img">DOWNLOAD CV
                     </a>

@@ -3,16 +3,17 @@
 
 <head>
     <!-- GOOGLE TRACKING -->
-    <!-- Google Tag Manager -->
+
+    <!-- GLOBE SITE TAG(gtag.js)-GOOGLE analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-41G5S3N8BB"></script>
+    
     <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-        var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })
-        (window,document,'script','dataLayer','GTM-58BV9H5');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+
+      gtag("config", "G-41G5S3N8BB");
     </script>
-    <!-- End Google Tag Manager -->
 
 
     <meta charset="UTF-8">
@@ -28,12 +29,13 @@
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58BV9H5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58BV9H5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
     <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
-            SHARE</button>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img" onclick="copyinglink()">
+            SHARE
+        </button>
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="index.html" class="nav-link active">HOME</a>
             <a href="resume.html" class="nav-link">RESUME</a>
@@ -54,10 +56,8 @@
                 <span class="badge badge-white badge-pill profile-designation">BUSINESS DEVELOPER</span>
             </div> 
             <nav class="social-links">
-                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/tonichuks" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/chukwudi-anosike-17896a1a9" class="social-link"><i class="fab fa-linkedin"></i></a>
             </nav>
             <div class="widget">
                 <h5 class="widget-title">personal information</h5>
@@ -100,7 +100,7 @@
                 organization.i intend to join a strong team that i can add value to, a team that I can produce a positive return on
                 investment for,while they aid my career growth.
                 </p>
-                <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a>
+                <!-- <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a> -->
             </section>
             <section class="resume-section">
                 <div class="row">
@@ -210,12 +210,11 @@
                 <div class="row">
                     <div class="media service-card col-lg-6">
                         <div class="service-icon">
-                            <img src="assets/images/001-target.svg" alt="target">
+                            <img src="assets/images/004-smartphone.svg" class="footer-image" alt="smartphone">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">web designing</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.</p>
+                            <h5 class="service-title">Sales</h5>
+                            <p class="service-description">I believe with my skills and experiences, we can make a difference on your sales</p>
                         </div>
                     </div>
                     <div class="media service-card col-lg-6">
@@ -223,9 +222,9 @@
                             <img src="assets/images/003-idea.svg" alt="bulb">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">Graphic design</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
+                            <h5 class="service-title">Human resource management</h5>
+                            <p class="service-description">
+                                Let's manage people so they can become the best they can be and as productive as they can be.
                             </p>
                         </div>
                     </div>
@@ -234,26 +233,26 @@
                             <img src="assets/images/002-development.svg" alt="development">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">Development</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
+                            <h5 class="service-title">Digital marketing</h5>
+                            <p class="service-description">
+                                Lets take your products live on the web and in front of your customers
                             </p>
                         </div>
                     </div>
                     <div class="media service-card col-lg-6">
                         <div class="service-icon">
-                            <img src="assets/images/004-smartphone.svg" alt="smartphone">
+                            <img src="assets/images/puzzle.svg" class="footer-image" alt="smartphone">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">Mobile design</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
+                            <h5 class="service-title">Travel aid and visa processing</h5>
+                            <p class="service-description">
+                                Your travels made easier and safer.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="testimonial-section">
+            <!-- <section class="testimonial-section">
                 <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">

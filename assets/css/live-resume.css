@@ -2312,6 +2312,10 @@ fieldset:disabled a.btn {
     color: #6c757d;
     pointer-events: none; }
 
+  /* .footer-image{
+    color: #0067f6;
+    background-color: #0067f6;
+  } */
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
